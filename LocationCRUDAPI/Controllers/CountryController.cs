@@ -28,6 +28,10 @@ namespace LocationCRUDAPI.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            for (int i = 0; i < length; i++)
+            {
+
+            }
         }
 
         // PUT api/<CountryController>/5
