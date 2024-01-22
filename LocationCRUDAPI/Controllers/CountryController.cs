@@ -28,7 +28,7 @@ namespace LocationCRUDAPI.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
-            for (int i = 0; i < length; i++)
+            for (int i = 0; i < 10; i++)
             {
 
             }
